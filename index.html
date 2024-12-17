@@ -12,7 +12,7 @@
       media="screen"
       charset="utf-8">
   </head>
-  <body>
+  <body class="page">
     <header
       class="header">
         <img
@@ -33,7 +33,7 @@
           <div
             class="add__container">
             <input
-              class="text add__input"
+              class="input text add__input"
               id="new-task"
               type="text">
             <button
@@ -44,18 +44,19 @@
         <section class="todo">
           <h2 class="title">Todo</h2>
           <ul
+            class="ul"
             id="incomplete">
               <li
                 class="li">
                 <input
-                  class="checkbox"
+                  class="input checkbox"
                   type="checkbox">
                 <label
                   class="label">Pay Bills
                 </label>
                 <input
                   type="text"
-                  class="text todo__input">
+                  class="input text todo__input">
                 <button
                   class="btn edit">Edit
                 </button>
@@ -69,7 +70,7 @@
               <li
                 class="li edit-mode">
                   <input
-                    class="checkbox"
+                    class="input checkbox"
                     type="checkbox">
                   <label
                     class="label edit-mode__label">Go Shopping
@@ -77,7 +78,7 @@
                   <input
                     type="text"
                     value="Go Shopping"
-                    class="text todo__input edit-mode__input">
+                    class="input text todo__input edit-mode__input">
                   <button
                     class="btn edit">Save
                   </button>
@@ -93,11 +94,12 @@
         <section>
           <h2 class="title">Completed</h2>
           <ul
-            class="completed"
+            class="ul completed"
             id="completed">
               <li
                 class="li">
                 <input
+                  class="input"
                   type="checkbox"
                   checked>
                 <label
@@ -105,7 +107,7 @@
                 </label>
                 <input
                   type="text"
-                  class="text todo__input">
+                  class="input text todo__input">
                 <button
                   class="btn edit">Edit
                 </button>

@@ -1,26 +1,26 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
 
-ul {
+.ul {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h2 {
+.li,
+.title {
   list-style: none;
 }
 
-input,
-button {
+.input,
+.btn {
   outline: none;
 }
 
-li > * {
+.li > * {
   vertical-align: middle;
 }
 
