@@ -14,96 +14,105 @@
   </head>
   <body>
     <header
-      class="aaa">
+      class="header">
         <img
-          src="./eisenhower-matrix.jpg" alt="Eisenhower matrix">
+          class="header__img"
+          src="./eisenhower-matrix.jpg"
+          alt="Eisenhower matrix">
         <a
-          class="more_inf"
+          class="header__link"
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
         </a>
     </header>
     <main
-      class="centered-main-page-element">
-        <section
-          id="topSectionForAddingElementToList">
-          <h2>
-            <label
-              for="new-task">Add Item
-            </label>
+      class="main">
+        <section class="add">
+          <h2
+            class="title add__title">Add Item
           </h2>
           <div
-            class="task-row-wrapper">
+            class="add__container">
             <input
+              class="text add__input"
               id="new-task"
-              class="task"
               type="text">
-            <button>Add</button>
+            <button
+              class="btn">Add
+            </button>
           </div>
         </section>
-        <section>
-          <h2>Todo</h2>
+        <section class="todo">
+          <h2 class="title">Todo</h2>
           <ul
-            id="incompleteTasks">
-              <li>
+            id="incomplete">
+              <li
+                class="li">
                 <input
+                  class="checkbox"
                   type="checkbox">
                 <label
-                  class="task">Pay Bills
+                  class="label">Pay Bills
                 </label>
                 <input
                   type="text"
-                  class="task">
+                  class="text todo__input">
                 <button
-                  class="edit">Edit
+                  class="btn edit">Edit
                 </button>
                 <button
-                  class="delete">
+                  class="btn delete">
                     <img
+                      class="delete_img"
                       src="./remove.svg" alt="cross">
                 </button>
               </li>
               <li
-                class="editMode">
+                class="li edit-mode">
                   <input
+                    class="checkbox"
                     type="checkbox">
                   <label
-                    class="task">Go Shopping
+                    class="label edit-mode__label">Go Shopping
                   </label>
                   <input
                     type="text"
                     value="Go Shopping"
-                    class="task">
+                    class="text todo__input edit-mode__input">
                   <button
-                    class="edit">Save
+                    class="btn edit">Save
                   </button>
                   <button
-                    class="delete">
+                    class="btn delete">
                       <img
+                        class="delete_img"
                         src="./remove.svg" alt="cross">
                   </button>
               </li>
           </ul>
         </section>
         <section>
-          <h2>Completed</h2>
+          <h2 class="title">Completed</h2>
           <ul
-            id="completed-tasks">
-              <li>
+            class="completed"
+            id="completed">
+              <li
+                class="li">
                 <input
                   type="checkbox"
                   checked>
                 <label
-                  class="task">See the Doctor
+                  class="label completed__label">See the Doctor
                 </label>
                 <input
                   type="text"
-                  class="task">
+                  class="text todo__input">
                 <button
-                  class="edit">Edit
+                  class="btn edit">Edit
                 </button>
                 <button
-                  class="delete">
+                  class="btn delete">
                     <img
+                      class="delete_img"
                       src="./remove.svg" alt="cross">
                 </button>
               </li>
