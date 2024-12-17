@@ -6,18 +6,18 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li,
 h2 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
-button{
-  outline:none;
+button {
+  outline: none;
 }
 
 li > * {
